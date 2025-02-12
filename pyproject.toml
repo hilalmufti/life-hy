@@ -1,0 +1,17 @@
+[project]
+name = "life"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "calysto-hy",
+    "hy>=1.0.0",
+    "hyrule>=0.8.0",
+    "jedhy",
+    "toolz>=1.0.0",
+]
+
+[tool.uv.sources]
+calysto-hy = { git = "https://github.com/Calysto/calysto_hy.git" }
+jedhy = { git = "https://github.com/ekaschalk/jedhy.git" }
